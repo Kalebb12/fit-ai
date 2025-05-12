@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧠 AI-Powered Fitness & Nutrition Voice Assistant
 
-## Getting Started
+This is an AI voice-driven fitness assistant that uses [Vapi](https://vapi.ai) to guide users through a dynamic conversational flow, collect fitness goals, and generate a personalized workout and nutrition plan. Built with modern web tools including **Next.js (App Router, TypeScript)**, **Clerk** for authentication, and **Convex** for backend logic and real-time data.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 🎙️ **Voice Assistant via Vapi** – Fully integrated AI voice automation with contextual understanding
+- 🙋‍♂️ **Personalized Prompts** – Dynamically greets users and collects preferences/goals
+- 🧠 **Fitness & Nutrition Logic** – Processes user input to create a tailored program
+- 🔐 **Clerk Authentication** – Secure sign-up, login, and user management
+- ⚙️ **Convex Backend** – Handles data storage, plan generation logic, and real-time updates
+- ⚡ **Next.js 14+ with TypeScript** – Fast, scalable frontend using App Router
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📸 Preview
 
-## Learn More
+.........
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+| Tech      | Purpose                           |
+|-----------|-----------------------------------|
+| Vapi      | AI Voice Assistant                |
+| Next.js   | Frontend (App Router + TS)        |
+| TypeScript| Type Safety                       |
+| Clerk     | Authentication                    |
+| Convex    | Backend & Real-Time Data Handling |
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
